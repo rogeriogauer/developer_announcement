@@ -1,14 +1,23 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 body{
-   background-color: #042326;
+   height: 100vh;
+   background-color: #03023d;
    color: #FFFFFF;
 }
 
-span{
-   color: #22DDF2;
-   font-weight: 700;
+main.apresentacao{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
 }
 
-strong{
+strong.titulo__destaque{
    color: #22DDF2;     
    font-weight: bold;
 }
