@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Patua+One&display=swap');
+
 *{
    margin: 0;
    padding: 0;
@@ -15,9 +17,24 @@ main.apresentacao{
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
+   margin: 10%;
+}
+
+section.apresentacao__conteudo{
+   width: 615px;
+}
+
+h1.apresentacao__conteudo__titulo{
+   font-family: 'Patua One', cursive;
+   font-size: 2.25rem;
 }
 
 strong.titulo__destaque{
    color: #22DDF2;     
    font-weight: bold;
+}
+
+p.apresentacao__conteudo__texto{
+   font-family: 'Hind', sans-serif;
+   font-size: 1.5rem;
 }
