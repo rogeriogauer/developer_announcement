@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Hind:wght@400;600&display=swap');
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 
-body{
+body {
    height: 100vh;
    background-color: #03023d;
    color: #FFFFFF;
 }
 
-main.apresentacao{
+main.apresentacao {
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -20,30 +20,30 @@ main.apresentacao{
    padding: 5%;
 }
 
-section.apresentacao__conteudo{
+section.apresentacao__conteudo {
    display: flex;
    flex-direction: column;
    gap: 30px;
    width: 615px;
 }
 
-h1.apresentacao__conteudo__titulo{
+h1.apresentacao__conteudo__titulo {
    font-family: 'Audiowide', cursive;
    font-size: 2.25rem;
 }
 
-strong.titulo__destaque{
-   color: #22DDF2;     
+strong.titulo__destaque {
+   color: #22DDF2;
    font-weight: bold;
 }
 
-p.apresentacao__conteudo__texto{
+p.apresentacao__conteudo__texto {
    font-family: 'Hind', sans-serif;
    font-size: 1.5rem;
    font-weight: 400;
 }
 
-div.apresentacao__conteudo__links{
+div.apresentacao__conteudo__links {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -51,16 +51,35 @@ div.apresentacao__conteudo__links{
    gap: 32px;
 }
 
-a.apresentacao__conteudo__links__link{
-   width: 200px;
-   background-color: #22DDF2;
-   color: #000000;
+h2.apresentacao__conteudo__subtitulo {
+   font-size: 2rem;
+   font-weight: 400;
+}
+
+a.apresentacao__conteudo__links__link {
+   display: flex;
+   justify-content: center;   
+   align-items: center;
+   width: 378px;
+   color: #22DDF2;
+   border: 2px solid #22DDF2;
    text-decoration: none;
-   text-align: center;
    font-family: 'Hind', sans-serif;
    font-size: 1.2rem;
    font-weight: 600;
    padding: 1.3rem 0;
-   border-radius: 16px;
+   border-radius: 10px;
+   gap: 1rem;
+}
+
+a.apresentacao__conteudo__links__link:hover{
+   background-color: #040366;
+}
+
+i.apresentacao__conteudo__links--github,
+i.apresentacao__conteudo__links--linkedin,
+i.apresentacao__conteudo__links--instagram {
+   color: #22DDF2;
+   font-size: 1.5rem;
 }
 
