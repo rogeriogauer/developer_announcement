@@ -4,12 +4,28 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   text-decoration: none;
 }
 
 body {
-   height: 100vh;
    background-color: #03023d;
    color: #FFFFFF;
+   font-family: 'Hind', sans-serif;
+}
+
+header.cabecalho{
+   padding: 3% 0 0 5%;
+}
+
+nav.cabecalho__menu{
+   display: flex;
+   gap: 100px;
+}
+
+a.cabecalho__menu__link{
+   font-size: 1.3rem;
+   font-weight: 600;   
+   color: #22DDF2;
 }
 
 main.apresentacao {
@@ -17,7 +33,7 @@ main.apresentacao {
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   padding: 5%;
+   padding: 3% 5%;
 }
 
 section.apresentacao__conteudo {
@@ -38,7 +54,6 @@ strong.titulo__destaque {
 }
 
 p.apresentacao__conteudo__texto {
-   font-family: 'Hind', sans-serif;
    font-size: 1.5rem;
    font-weight: 400;
 }
@@ -64,16 +79,18 @@ a.apresentacao__conteudo__links__link {
    color: #22DDF2;
    border: 2px solid #22DDF2;
    text-decoration: none;
-   font-family: 'Hind', sans-serif;
    font-size: 1.2rem;
    font-weight: 600;
    padding: 1.3rem 0;
    border-radius: 10px;
    gap: 1rem;
+   transition: all 0.5s ease-in-out;
 }
 
 a.apresentacao__conteudo__links__link:hover{
-   background-color: #040366;
+   background-color: #22DDF2;
+   color: #03023d;
+   scale: 1.05;
 }
 
 i.apresentacao__conteudo__links--github,
@@ -81,5 +98,16 @@ i.apresentacao__conteudo__links--linkedin,
 i.apresentacao__conteudo__links--instagram {
    color: #22DDF2;
    font-size: 1.5rem;
+}
+
+footer.rodape{
+   color: #03023d;
+   background-color: #22DDF2;
+   text-align: center;
+   padding: 5px;
+}
+
+a.rodape__link{
+   font-weight: 600;
 }
 
