@@ -7,10 +7,19 @@
    text-decoration: none;
 }
 
+:root{
+   --cor01: #000000;
+   --cor02: #FFFFFF;
+   --cor03: #03023d;
+   --cor04: #22DDF2;
+   --font01: 'Hind', sans-serif;
+   --font02:'Audiowide', cursive;
+}
+
 body {
-   background-color: #03023d;
-   color: #FFFFFF;
-   font-family: 'Hind', sans-serif;
+   background-color: var(--cor03);
+   color: var(--cor02);
+   font-family: var(--font01);
 }
 
 header.cabecalho{
@@ -25,7 +34,7 @@ nav.cabecalho__menu{
 a.cabecalho__menu__link{
    font-size: 1.3rem;
    font-weight: 600;   
-   color: #22DDF2;
+   color: var(--cor04);
 }
 
 main.apresentacao {
@@ -44,12 +53,12 @@ section.apresentacao__conteudo {
 }
 
 h1.apresentacao__conteudo__titulo {
-   font-family: 'Audiowide', cursive;
+   font-family: var(--font02);
    font-size: 2.25rem;
 }
 
 strong.titulo__destaque {
-   color: #22DDF2;
+   color: var(--cor04);
    font-weight: bold;
 }
 
@@ -76,8 +85,8 @@ a.apresentacao__conteudo__links__link {
    justify-content: center;   
    align-items: center;
    width: 378px;
-   color: #22DDF2;
-   border: 2px solid #22DDF2;
+   color:var(--cor04);
+   border: 2px solid var(--cor04);
    text-decoration: none;
    font-size: 1.2rem;
    font-weight: 600;
@@ -88,21 +97,21 @@ a.apresentacao__conteudo__links__link {
 }
 
 a.apresentacao__conteudo__links__link:hover{
-   background-color: #22DDF2;
-   color: #03023d;
-   scale: 1.05;
+   background-color: var(--cor04);
+   color: var(--cor03);
+   scale: 1.03;
 }
 
 i.apresentacao__conteudo__links--github,
 i.apresentacao__conteudo__links--linkedin,
 i.apresentacao__conteudo__links--instagram {
-   color: #22DDF2;
+   color: var(--cor04);
    font-size: 1.5rem;
 }
 
 footer.rodape{
-   color: #03023d;
-   background-color: #22DDF2;
+   color: var(--cor03);
+   background-color: var(--cor04);
    text-align: center;
    padding: 5px;
 }
