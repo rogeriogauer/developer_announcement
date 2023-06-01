@@ -102,6 +102,10 @@ a.apresentacao__conteudo__links__link:hover{
    scale: 1.03;
 }
 
+img.apresentacao__conteudo__imagem{
+   width: 50%;
+}
+
 i.apresentacao__conteudo__links--github,
 i.apresentacao__conteudo__links--linkedin,
 i.apresentacao__conteudo__links--instagram {
