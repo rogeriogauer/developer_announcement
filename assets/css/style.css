@@ -7,13 +7,13 @@
    text-decoration: none;
 }
 
-:root{
+:root {
    --cor01: #000000;
    --cor02: #FFFFFF;
    --cor03: #03023d;
    --cor04: #22DDF2;
    --font01: 'Hind', sans-serif;
-   --font02:'Audiowide', cursive;
+   --font02: 'Audiowide', cursive;
 }
 
 body {
@@ -22,18 +22,18 @@ body {
    font-family: var(--font01);
 }
 
-header.cabecalho{
+header.cabecalho {
    padding: 3% 0 0 5%;
 }
 
-nav.cabecalho__menu{
+nav.cabecalho__menu {
    display: flex;
    gap: 100px;
 }
 
-a.cabecalho__menu__link{
+a.cabecalho__menu__link {
    font-size: 1.3rem;
-   font-weight: 600;   
+   font-weight: 600;
    color: var(--cor04);
 }
 
@@ -43,13 +43,14 @@ main.apresentacao {
    align-items: center;
    justify-content: space-between;
    padding: 3% 5%;
+   gap: 35px;
 }
 
 section.apresentacao__conteudo {
    display: flex;
    flex-direction: column;
    gap: 30px;
-   width: 615px;
+   width: 50%;
 }
 
 h1.apresentacao__conteudo__titulo {
@@ -82,10 +83,10 @@ h2.apresentacao__conteudo__subtitulo {
 
 a.apresentacao__conteudo__links__link {
    display: flex;
-   justify-content: center;   
+   justify-content: center;
    align-items: center;
-   width: 378px;
-   color:var(--cor04);
+   width: 50%;
+   color: var(--cor04);
    border: 2px solid var(--cor04);
    text-decoration: none;
    font-size: 1.2rem;
@@ -96,31 +97,44 @@ a.apresentacao__conteudo__links__link {
    transition: all 0.5s ease-in-out;
 }
 
-a.apresentacao__conteudo__links__link:hover{
+a.apresentacao__conteudo__links__link:hover {
    background-color: var(--cor04);
    color: var(--cor03);
    scale: 1.03;
 }
 
-img.apresentacao__conteudo__imagem{
+img.apresentacao__conteudo__imagem {
    width: 50%;
 }
 
-i.apresentacao__conteudo__links--github,
-i.apresentacao__conteudo__links--linkedin,
-i.apresentacao__conteudo__links--instagram {
+i.apresentacao__conteudo__links__link--github,
+i.apresentacao__conteudo__links__link--linkedin,
+i.apresentacao__conteudo__links__link--instagram {
    color: var(--cor04);
    font-size: 1.5rem;
 }
 
-footer.rodape{
+footer.rodape {
    color: var(--cor03);
    background-color: var(--cor04);
    text-align: center;
    padding: 5px;
 }
 
-a.rodape__link{
+a.rodape__link {
    font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+   header.cabecalho {
+      padding: 4% 0 1% 0;
+   }
+
+   nav.cabecalho__menu {
+      justify-content: center;
+   }
+
+   main.apresentacao {
+      flex-direction: column-reverse;
+   }
+}
