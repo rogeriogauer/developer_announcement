@@ -42,7 +42,7 @@ main.apresentacao {
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   padding: 3% 5%;
+   padding: 5%;
    gap: 35px;
 }
 
@@ -127,7 +127,7 @@ a.rodape__link {
 
 @media (max-width: 1024px) {
    header.cabecalho {
-      padding: 4% 0 1% 0;
+      padding: 5% 5% 0 5%;
    }
 
    nav.cabecalho__menu {
@@ -136,5 +136,10 @@ a.rodape__link {
 
    main.apresentacao {
       flex-direction: column-reverse;
+   }
+
+   section.apresentacao__conteudo{
+      width: auto;
+      text-align: center;
    }
 }
