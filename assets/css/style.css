@@ -12,6 +12,7 @@
    --cor02: #FFFFFF;
    --cor03: #03023d;
    --cor04: #22DDF2;
+   --cor05: #0b0985;
    --font01: 'Hind', sans-serif;
    --font02: 'Audiowide', cursive;
 }
@@ -23,13 +24,13 @@ body {
 }
 
 header.cabecalho {
-   padding: 3% 5% 0 5%;
+   padding: 3% 7% 0 7%;
 }
 
 nav.cabecalho__menu {
    display: flex;
    justify-content: space-between;
-   gap: 100px;
+   gap: 50px;
 }
 
 a.cabecalho__menu__link {
@@ -48,20 +49,20 @@ main.apresentacao {
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   padding: 5%;
+   padding: 2% 7%;
    gap: 35px;
 }
 
 section.apresentacao__conteudo {
    display: flex;
    flex-direction: column;
-   gap: 30px;
-   width: 50%;
+   gap: 31.5px;
+   width: 45%;
 }
 
 h1.apresentacao__conteudo__titulo {
    font-family: var(--font02);
-   font-size: 1.9rem;
+   font-size: 1.6rem;
 }
 
 strong.titulo__destaque {
@@ -70,16 +71,8 @@ strong.titulo__destaque {
 }
 
 p.apresentacao__conteudo__texto {
-   font-size: 1.2rem;
+   font-size: 1.1rem;
    font-weight: 400;
-}
-
-div.apresentacao__conteudo__links {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   gap: 15px;
 }
 
 h2.apresentacao__conteudo__subtitulo {
@@ -87,13 +80,22 @@ h2.apresentacao__conteudo__subtitulo {
    font-weight: 200;
    font-family: var(--font02);
    color: var(--cor04);
+   text-align: center;
+}
+
+div.apresentacao__conteudo__links {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   gap: 15px;
 }
 
 a.apresentacao__conteudo__links__link {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 50%;
+   width: 30%;
    color: var(--cor04);
    border: 2px solid var(--cor04);
    text-decoration: none;
@@ -101,17 +103,18 @@ a.apresentacao__conteudo__links__link {
    font-weight: 600;
    padding: .7rem 0;
    border-radius: 10px;
-   gap: 1rem;
+   gap: .4rem;
    transition: all 0.4s ease-in-out;
 }
 
 a.apresentacao__conteudo__links__link:hover {
-   background-color: #0b0985;
+   background-color: var(--cor05);
    scale: 1.03;
 }
 
 img.apresentacao__conteudo__imagem {
-   width: 50%;
+   width: 45%;
+   height: 380px;
 }
 
 i.apresentacao__conteudo__links__link--github,
@@ -135,19 +138,34 @@ a.rodape__link {
 
 @media (max-width: 1024px) {
    header.cabecalho {
-      padding: 5% 5% 0 5%;
+      padding: 8% 5% 0 5%;
    }
 
    nav.cabecalho__menu {
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
    }
 
    main.apresentacao {
       flex-direction: column-reverse;
+      padding: 7%;
    }
 
    section.apresentacao__conteudo {
       width: auto;
       text-align: center;
+   }
+
+   div.apresentacao__conteudo__links {
+      flex-direction: column;
+   }
+
+   a.apresentacao__conteudo__links__link {
+      width: 50%;
+   }
+
+   img.apresentacao__conteudo__imagem {
+      width: 100%;
    }
 }
