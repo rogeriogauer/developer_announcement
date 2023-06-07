@@ -24,12 +24,13 @@ body {
 }
 
 header.cabecalho {
-   padding: 3% 7% 0 7%;
+   padding: 2.5% 7% 0 7%;
 }
 
 nav.cabecalho__menu {
    display: flex;
    justify-content: space-between;
+   align-items: center;
    gap: 50px;
 }
 
@@ -40,7 +41,7 @@ a.cabecalho__menu__link {
 }
 
 i.cabecalho__menu__link--icone {
-   font-size: 1.5rem;
+   font-size: 1.9rem;
    color: var(--cor04);
 }
 
@@ -144,7 +145,7 @@ a.rodape__link {
    nav.cabecalho__menu {
       flex-direction: column;
       align-items: center;
-      gap: 20px;
+      gap: 15px;
    }
 
    main.apresentacao {
