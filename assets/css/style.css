@@ -18,6 +18,11 @@
 }
 
 body {
+   background-image: url("../img/background.jpg"); 
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-blend-mode: luminosity;
    background-color: var(--cor03);
    color: var(--cor02);
    font-family: var(--font01);
