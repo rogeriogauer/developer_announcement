@@ -13,6 +13,7 @@
    --cor03: #03023d;
    --cor04: #22DDF2;
    --cor05: #0b0985;
+   --cor06: #FA1796;
    --font01: 'Hind', sans-serif;
    --font02: 'Audiowide', cursive;
 }
@@ -26,7 +27,6 @@ body {
    background-color: var(--cor03);
    color: var(--cor01);
    font-family: var(--font01);
-   text-shadow: 2px 2px 5px #393939;
 }
 
 header.cabecalho {
@@ -39,6 +39,7 @@ nav.cabecalho__menu {
    justify-content: space-between;
    align-items: center;
    gap: 50px;
+   text-shadow: 2px 2px 1px var(--cor05);
 }
 
 a.cabecalho__menu__link {
@@ -59,6 +60,7 @@ main.apresentacao {
    justify-content: space-between;
    padding: 2.6% 7%;
    gap: 35px;
+   color: var(--cor05);
 }
 
 section.apresentacao__conteudo {
@@ -71,16 +73,19 @@ section.apresentacao__conteudo {
 h1.apresentacao__conteudo__titulo {
    font-family: var(--font02);
    font-size: 1.6rem;
+   text-shadow: 1px 1px 1px var(--cor06);
 }
 
 strong.titulo__destaque {
    color: var(--cor04);
-   font-weight: bold;
+   font-weight: 600;
+   text-shadow: 2px 2px 1px var(--cor05);
 }
 
 p.apresentacao__conteudo__texto {
    font-size: 1.1rem;
-   font-weight: 500;
+   font-weight: 600;
+   text-shadow: 1px 1px 1px var(--cor06);
 }
 
 h2.apresentacao__conteudo__subtitulo {
@@ -89,6 +94,7 @@ h2.apresentacao__conteudo__subtitulo {
    font-family: var(--font02);
    color: var(--cor04);
    text-align: center;
+   text-shadow: 2px 2px 1px var(--cor05);
 }
 
 div.apresentacao__conteudo__links {
@@ -97,6 +103,8 @@ div.apresentacao__conteudo__links {
    align-items: center;
    justify-content: space-between;
    gap: 15px;
+   color: var(--cor05);
+   text-shadow: 1px 1px 1px var(--cor06);
 }
 
 a.apresentacao__conteudo__links__link {
@@ -104,7 +112,7 @@ a.apresentacao__conteudo__links__link {
    justify-content: center;
    align-items: center;
    width: 30%;
-   color: var(--cor04);
+   background-color: #00000030;
    border: 2px solid var(--cor04);
    text-decoration: none;
    font-size: 1rem;
@@ -128,7 +136,6 @@ img.apresentacao__conteudo__imagem {
 i.apresentacao__conteudo__links__link--github,
 i.apresentacao__conteudo__links__link--linkedin,
 i.apresentacao__conteudo__links__link--instagram {
-   color: var(--cor04);
    font-size: 1.5rem;
 }
 
