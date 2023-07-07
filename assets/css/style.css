@@ -12,10 +12,10 @@
    --cor02: #FFFFFF;
    --cor03: #03023d;
    --cor04: #22DDF2;
-   --cor05: #0b0985;
+   --cor05: #ff4db2;
    --cor06: #FA1796;
    --cor07: rgba(250, 23, 152, 0.2);
-   --cor08: rgba(3, 2, 61, 0.4);
+   --cor08: rgba(3, 2, 61, 0.3);
    --cor09: rgba(34, 221, 242, 0.5);
    --font01: 'Hind', sans-serif;
    --font02: 'Audiowide', cursive;
@@ -41,13 +41,19 @@ nav.cabecalho__menu {
    justify-content: space-between;
    align-items: center;
    gap: 50px;
-   text-shadow: 2px 2px 1px var(--cor03);
 }
 
 a.cabecalho__menu__link {
+   color: var(--cor04);
+   text-shadow: 2px 2px 2px var(--cor03);
    font-size: 1.1rem;
    font-weight: 600;
-   color: var(--cor04);
+   transition: all 0.5s ease-in-out;
+   
+   &:hover{   
+      color:var(--cor05);
+      transform: scale(1.05);
+   }
 }
 
 i.cabecalho__menu__link--icone {
@@ -140,13 +146,41 @@ a.apresentacao__conteudo__links__link {
       color: var(--cor06);
       text-shadow: 1px 1px 1px var(--cor03);
       background-color: var(--cor08);
-      scale: 1.03;
+      transform: scale(1.03);
    }
 }
 
-img.apresentacao__conteudo__imagem {
+div.apresentacao__conteudo__card{
    width: 45%;
    height: 380px;
+   position: relative;
+   transform-style: preserve-3d;
+   perspective: 1000px;
+}
+
+img.apresentacao__conteudo__card__front {
+   position: absolute;
+   backface-visibility: hidden;
+   transition: 1s; 
+   width: 100%;
+   height: 100%;
+
+   &:hover{
+      transform: rotateY(-180deg);
+   }
+}
+
+div.apresentacao__conteudo__card__back{
+   position: absolute;
+   backface-visibility: hidden;
+   transition: 1s;
+   transform: rotateY(180deg);
+   width: 100%;
+   height: 100%;  
+
+   &:hover{
+      transform: rotateY(0deg);
+   }
 }
 
 i.apresentacao__conteudo__links__link--github,
