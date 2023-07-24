@@ -66,15 +66,15 @@ main.apresentacao {
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   padding: 3.2% 7%;
-   gap: 35px;
+   padding: 3% 7%;
+   gap: 30px;
    color: var(--cor03);
 }
 
 section.apresentacao__conteudo {
    display: flex;
    flex-direction: column;
-   gap: 31.5px;
+   gap: 22px;
    width: 45%;
 }
 
@@ -111,6 +111,7 @@ p.apresentacao__card__back__texto {
    font-size: 1.1rem;
    font-weight: 600;
    text-shadow: 1px 1px 1px var(--cor06);
+   padding: 7px 0px;
 }
 
 h2.apresentacao__conteudo__subtitulo,
@@ -121,6 +122,7 @@ h2.apresentacao__card__back__subtitulo {
    font-weight: 200;
    text-align: center;
    text-shadow: 2px 2px 1px var(--cor03);
+   padding: 7px 0px;
 }
 
 div.apresentacao__conteudo__links {
@@ -146,6 +148,7 @@ a.apresentacao__conteudo__links__link {
    padding: .7rem 0;
    text-decoration: none;
    transition: all 0.4s ease-in-out;
+   box-shadow: 5px 5px 10px var(--cor01);
    width: 30%;
 
    &:hover {
@@ -170,6 +173,8 @@ div.apresentacao__card__front {
    height: 100%;
    backface-visibility: hidden;
    transition: all 1s ease-in-out;
+   border-radius: 20px;
+   filter: drop-shadow(5px 5px 10px var(--cor01));
 }
 
 section.apresentacao__card:hover div.apresentacao__card__front {
@@ -191,13 +196,14 @@ article.apresentacao__card__back {
    gap: 20px;
    position: absolute;
    backface-visibility: hidden;
-   /* background: var(--cor07); */
    background-image: url(../img/background.jpg);
+   background-size: cover;
    transform: rotateY(-180deg);
    transition: all 1s ease-in-out;
    height: 100%;
    width: 100%;
    border-radius: 20px;
+   filter: drop-shadow(5px 5px 10px var(--cor01));
 }
 
 section.apresentacao__card:hover article.apresentacao__card__back {
