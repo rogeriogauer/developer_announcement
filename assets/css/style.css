@@ -23,12 +23,15 @@
 }
 
 body {
+   display: flex;
+   flex-direction: column;
    background-color: var(--cor03);
    background-image: url("../img/background.jpg");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
    font-family: var(--font01);
+   min-height: 100vh;
 }
 
 header.cabecalho {
@@ -66,9 +69,12 @@ main.apresentacao {
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   padding: 3% 7%;
-   gap: 30px;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0;
    color: var(--cor03);
+   gap: 30px;
+   padding: 3% 7%;
 }
 
 section.apresentacao__conteudo {
@@ -96,7 +102,7 @@ h1.apresentacao__conteudo__titulo {
    }
 
    100% {
-      scale: 1.05;
+      scale: 0.95;
    }
 }
 
@@ -189,11 +195,9 @@ img.apresentacao__card__front__imagem {
 
 article.apresentacao__card__back {
    display: flex;
-   flex-direction:column;
+   flex-direction: column;
    justify-content: center;
-   align-items: center;
-   padding: 30px;
-   gap: 20px;
+   padding: 35px;
    position: absolute;
    backface-visibility: hidden;
    background-image: url(../img/background.jpg);
@@ -210,9 +214,9 @@ section.apresentacao__card:hover article.apresentacao__card__back {
    transform: rotateY(0deg);
 }
 
+i.apresentacao__conteudo__links__link--instagram,
 i.apresentacao__conteudo__links__link--github,
-i.apresentacao__conteudo__links__link--linkedin,
-i.apresentacao__conteudo__links__link--instagram {
+i.apresentacao__conteudo__links__link--linkedin {
    font-size: 1.5rem;
 }
 
