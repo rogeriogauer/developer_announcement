@@ -23,13 +23,13 @@
 }
 
 body {
-   display: flex;
-   flex-direction: column;
    background-color: var(--cor03);
    background-image: url("../img/background.jpg");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
+   display: flex;
+   flex-direction: column;
    font-family: var(--font01);
    min-height: 100vh;
 }
@@ -40,13 +40,13 @@ header.cabecalho {
 }
 
 nav.cabecalho__menu {
-   display: flex;
-   justify-content: space-between;
    align-items: center;
+   display: flex;
    gap: 50px;
+   justify-content: space-between;
 }
 
-a.cabecalho__menu__link {
+a.cabecalho__menu__link {   
    color: var(--cor04);
    font-size: 1.1rem;
    font-weight: 600;
@@ -65,15 +65,15 @@ i.cabecalho__menu__link--icone {
 }
 
 main.apresentacao {
-   display: flex;
-   flex-direction: row;
    align-items: center;
-   justify-content: space-between;
+   color: var(--cor03);
+   display: flex;
+   flex-basis: 0;
+   flex-direction: row;
    flex-grow: 1;
    flex-shrink: 1;
-   flex-basis: 0;
-   color: var(--cor03);
    gap: 10px;
+   justify-content: space-between;
    padding: 2% 6%;
 }
 
@@ -87,15 +87,15 @@ section.apresentacao__conteudo {
 }
 
 h1.apresentacao__conteudo__titulo {
+   animation-delay: 1s;
+   animation-direction: alternate;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-name: pulse;
+   animation-timing-function: ease-in-out;
    font-family: var(--font02);
    font-size: 1.6rem;
    text-shadow: 1px 1px 1px var(--cor06);
-   animation-name: pulse;
-   animation-duration: 3s;
-   animation-timing-function: ease-in-out;
-   animation-delay: 1s;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
 }
 
 @keyframes pulse {
@@ -118,8 +118,8 @@ p.apresentacao__conteudo__texto,
 p.apresentacao__card__back__texto {
    font-size: 1.1rem;
    font-weight: 600;
-   text-shadow: 1px 1px 1px var(--cor06);
    padding: 7px 0px;
+   text-shadow: 1px 1px 1px var(--cor06);
 }
 
 h2.apresentacao__conteudo__subtitulo,
@@ -128,17 +128,17 @@ h2.apresentacao__card__back__subtitulo {
    font-family: var(--font02);
    font-size: 1.3rem;
    font-weight: 200;
+   padding: 7px 0px;
    text-align: center;
    text-shadow: 2px 2px 1px var(--cor03);
-   padding: 7px 0px;
 }
 
 div.apresentacao__conteudo__links {
+   align-items: center;
    display: flex;
    flex-direction: row;
-   align-items: center;
-   justify-content: space-between;
    gap: 15px;
+   justify-content: space-between;
    text-shadow: 1px 1px 1px var(--cor06);
 }
 
@@ -160,19 +160,19 @@ a.apresentacao__conteudo__links__link {
    width: 30%;
 
    &:hover {
+      background-color: var(--cor08);
       color: var(--cor06);
       text-shadow: 1px 1px 1px var(--cor03);
-      background-color: var(--cor08);
       transform: scale(1.03);
    }
 }
 
 section.apresentacao__card {
-   position: relative;
-   width: 46%;
    height: 380px;
-   transform-style: preserve-3d;
    perspective: 1300px;
+   position: relative;
+   transform-style: preserve-3d;
+   width: 46%;
 }
 
 div.apresentacao__card__front {
@@ -223,11 +223,11 @@ i.apresentacao__conteudo__links__link--linkedin {
 }
 
 footer.rodape {
-   font-size: 0.7rem;
-   color: var(--cor03);
    background-color: var(--cor09);
-   text-align: center;
+   color: var(--cor03);
+   font-size: 0.7rem;
    padding: 3px;
+   text-align: center;
 }
 
 a.rodape__link {
@@ -237,34 +237,39 @@ a.rodape__link {
 /* ==========Versao Mobile========== */
 @media screen and (max-width: 768px) {
    header.cabecalho {
-      padding: 8% 5% 5% 5%;
+      padding: 10% 5% 7% 5%;
    }
 
    nav.cabecalho__menu {
-      flex-direction: column;
       align-items: center;
+      flex-direction: column;
       gap: 15px;
    }
 
    main.apresentacao {
       flex-direction: column-reverse;
-      padding: 8% 5%;
+      padding: 10% 5%;
    }
 
    section.apresentacao__conteudo {
-      width: auto;
-      text-align: center;
-      height: 505px;
       gap: 0;
+      height: 542px;
       margin-top: 25px;
+      text-align: center;
+      width: auto;
    }
 
    p.apresentacao__conteudo__texto {
       padding: 20px 0 0 0;
    }
 
+   h2.apresentacao__conteudo__subtitulo {
+      padding: 25px 0 0 0;
+   }
+
    div.apresentacao__conteudo__links {
       flex-direction: column;
+      padding: 22px 0 0 0;
    }
 
    a.apresentacao__conteudo__links__link {
@@ -272,11 +277,12 @@ a.rodape__link {
    }
 
    section.apresentacao__card {
-      width: 100%;
       height: 300px;
+      width: 100%;
    }
 
    img.apresentacao__card__front__imagem {
       width: 100%;
    }
 }
+
