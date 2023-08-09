@@ -1,10 +1,10 @@
-<!-- <h1 align="center">
- <img src="img/appharmonyLogotipo.png" style="border-radius:10px" width="50%">
-</h1>  -->
+<h1 align="center">
+ <img src="assets/img/logotipo.png" style="border-radius:5px" width="50%">
+</h1> 
 
 <p align="center">
- <img src="https://img.shields.io/badge/status-finished-0016D9">
- <img src="https://img.shields.io/badge/version-v1.0.0-B900D6">
+ <img src="https://img.shields.io/badge/status-developing-03023d">
+ <img src="https://img.shields.io/badge/version-v1.0.0-FA1796">
 </p>
 
 <br/>
@@ -30,12 +30,12 @@
 <br/>
 
 ## :scroll: Descrição:
--  Site interativo de uma startup desenvolvedora de aplicativos.
+-  Landing page para promover uma desenvolvedora Front-End.
 
 <br/>
 
 ## :door: Acessar:
-- Acesse o site em <a href="https://rogeriogauer.github.io/appharmony" target="_blank">rogeriogauer.github.io/appharmony</a> 
+- Acesse o site em <a href="https://rogeriogauer.github.io/developer_announcement" target="_blank">rogeriogauer.github.io/developer_announcement</a> 
 
 <br/>
 
@@ -47,17 +47,11 @@
 
 <br/>
 
-- Versão tablet
-
-<br/>
-<img src="img/appharmonyTablet.gif" weight="490" height="240">
-
-<br/>
-
 - Versão desktop 
 
 <br/>
-<img src="img/appharmonyDesktop.gif" width="530" height="260">  
+
+<video src="assets/img/versao_desktop.mp4" type="video/mp4" autoplay muted loop></video>  
 
 <br/>
 

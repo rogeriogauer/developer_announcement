@@ -46,7 +46,7 @@ nav.cabecalho__menu {
    justify-content: space-between;
 }
 
-a.cabecalho__menu__link {   
+a.cabecalho__menu__link {
    color: var(--cor04);
    font-size: 1.1rem;
    font-weight: 600;
@@ -216,10 +216,8 @@ section.apresentacao__card:hover article.apresentacao__card__back {
    transform: rotateY(0deg);
 }
 
-i.apresentacao__conteudo__links__link--instagram,
-i.apresentacao__conteudo__links__link--github,
-i.apresentacao__conteudo__links__link--linkedin {
-   font-size: 1.5rem;
+a.apresentacao__conteudo__links__link {
+   font-size: 1.1rem;
 }
 
 footer.rodape {
@@ -246,6 +244,14 @@ a.rodape__link {
       gap: 15px;
    }
 
+   i.cabecalho__menu__link--icone {
+      font-size: 3rem;
+   }
+
+   a.cabecalho__menu__link {
+      font-size: 1.5rem;
+   }
+
    main.apresentacao {
       flex-direction: column-reverse;
       padding: 10% 5%;
@@ -259,11 +265,18 @@ a.rodape__link {
       width: auto;
    }
 
+   h1.apresentacao__conteudo__titulo{
+      font-size: 2rem;
+   }
+
+
    p.apresentacao__conteudo__texto {
+      font-size: 1.3rem;
       padding: 20px 0 0 0;
    }
 
    h2.apresentacao__conteudo__subtitulo {
+      font-size: 1.5rem;
       padding: 25px 0 0 0;
    }
 
@@ -273,6 +286,7 @@ a.rodape__link {
    }
 
    a.apresentacao__conteudo__links__link {
+      font-size: 1.3rem;
       width: 50%;
    }
 
@@ -281,8 +295,16 @@ a.rodape__link {
       width: 100%;
    }
 
-   img.apresentacao__card__front__imagem {
-      width: 100%;
+   section.apresentacao__card:hover div.apresentacao__card__front {
+      transform: none;
+   }
+
+   section.apresentacao__card:hover article.apresentacao__card__back {
+      transform: none;
+   }
+
+   article.apresentacao__card__back {
+      display: none;
+      transform: none;
    }
 }
-
