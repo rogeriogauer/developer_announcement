@@ -23,7 +23,7 @@
 }
 
 body {
-   background-color: var(--cor03);
+   background-color: var(--cor05);
    background-image: url("../img/background.jpg");
    background-position: center center;
    background-repeat: no-repeat;
@@ -109,7 +109,7 @@ h1.apresentacao__conteudo__titulo {
 }
 
 strong.titulo__destaque {
-   color: var(--cor04);
+   color: var(--cor06);
    font-weight: 600;
    text-shadow: 2px 2px 1px var(--cor03);
 }
@@ -244,13 +244,13 @@ a.rodape__link {
       flex-direction: column;
       gap: 17px;
    }
-
-   i.cabecalho__menu__link--icone {
-      font-size: 3rem;
-   }
-
+   
    a.cabecalho__menu__link {
       font-size: 1.7rem;
+   }
+
+   i.cabecalho__menu__link--icone {
+      font-size: 3.6rem;
    }
 
    main.apresentacao {
