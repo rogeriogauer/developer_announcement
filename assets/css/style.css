@@ -264,6 +264,7 @@ a.rodape__link {
       gap: 0;
       height: 835px;
       margin-top: 20px;
+      min-height: 835px;
       text-align: center;
       width: auto;
    }
@@ -294,6 +295,7 @@ a.rodape__link {
 
    section.apresentacao__card {
       height: 300px;
+      min-height: 300px;
       width: 100%;
    }
 
