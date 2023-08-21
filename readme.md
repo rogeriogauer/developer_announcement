@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="assets/img/logotipo.png" style="border-radius:5px" width="50%">
+ <img src="assets/img/logotipo.png" style="border-radius:7px" width="50%">
 </h1> 
 
 <p align="center">
@@ -30,7 +30,7 @@
 <br/>
 
 ## :scroll: Descrição:
--  Landing page para promover uma desenvolvedora Front-End.
+-  Landing page para promover uma desenvolvedora Front-end.
 
 <br/>
 
@@ -43,20 +43,22 @@
 - Versão mobile 
 
 <br/>
-<img src="img/appharmonyMobile.gif" width="170" height="350">
+<img src="assets/img/versionMobile.gif" width="170" height="350">
 
 <br/>
 
 - Versão desktop 
 
 <br/>
+<img src="assets/img/versionDesktop.gif" width="490" height="240">
 
-<video src="assets/img/versao_desktop.mp4" type="video/mp4" autoplay muted loop></video>  
+<br/> 
+<img src="assets/img/versionDesktop.gif" width="530" height="260">
 
 <br/>
 
 ## :dart: Objetivos:
-- Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos responsivos, observando a diretriz mobile first. 
+- Projeto desenvolvido para praticar e fixar conceitos Front-end, tais como: flexbox, responsividade, layout, semântica, keyframes, ìcones, variáveis, seletores, posicionamento, unidades de medidas, entre outros. 
 
 <br/>
 
