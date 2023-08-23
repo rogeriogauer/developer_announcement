@@ -23,7 +23,7 @@
 
 - [Bibliotecas Utilizadas](#books-bibliotecas-utilizadas)
 
-- [Contribuidor](#muscle-contribuidor)
+- [Contribuidores](#muscle-contribuidores)
 
 - [Desenvolvedor](#smiley-desenvolvedor)
 
@@ -58,7 +58,7 @@
 <br/>
 
 ## :dart: Objetivos:
-- Projeto desenvolvido para praticar e fixar conceitos Front-end, tais como: flexbox, responsividade, layout, semântica, keyframes, ìcones, variáveis, seletores, posicionamento, unidades de medidas, entre outros. 
+- Projeto desenvolvido para praticar e fixar conceitos Front-end, tais como: flexbox, responsividade, layout, semântica, keyframes, ícones, variáveis, seletores, posicionamento, unidades de medidas, entre outros. 
 
 <br/>
 
@@ -69,26 +69,19 @@
 <br/>
 
 ## :books: Bibliotecas Utilizadas:
-- Ícones:
-  - <a href="https://fonts.google.com/icons?icon.set=Material+Icons" target="_blank">Google Fonts</a>
-  - <a href="https://icon-icons.com" target="_blank">Icon Icons</a>
-  - <a href="https://icons8.com" target="_blank">Icons8</a> 
+- Fontes:
+  - <a href="https://fonts.google.com/" target="_blank">Fonts Google</a> 
 
 <br/> 
 
-- Vídeo:
-  - <a href="https://pixabay.com" target="_blank">Pixabay</a>
+- Ícones:
+  - <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> 
 
 <br/>
 
-- Animações:
-  - <a href="https://animate.style" target="_blank">Animate.CSS</a>
-
-<br/>
-
-## :muscle: Contribuidor:
-|[<img src="https://avatars.githubusercontent.com/u/22684176?v=4" width=115><br><sub>Matheus Alberto</sub>](https://github.com/ikyrie)| 
-|:---:|
+## :muscle: Contribuidores:
+| [<img src="https://avatars.githubusercontent.com/u/54322854?v=4" width=115><br><sub>Rafaella Ballerini</sub>](https://github.com/rafaballerini) | [<img src="https://media.licdn.com/dms/image/D4D03AQHKwgj0RSzbbw/profile-displayphoto-shrink_800_800/0/1677677038737?e=2147483647&v=beta&t=N0KZpoKXxESLBOafTtOPfHKEpBoAFWsZwa6dVaCPQmE" width=115><br><sub>Guilherme Lima</sub>](https://www.linkedin.com/in/guilherme-lima-458925178)|
+| :---: | :---: |
 
 <br/>
 
