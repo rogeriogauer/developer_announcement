@@ -1,0 +1,72 @@
+section.apresentacao__card {
+   height: 80%;
+   min-height: 380px;
+   perspective: 1300px;
+   position: relative;
+   transform-style: preserve-3d;
+   width: 46%;
+}
+
+div.apresentacao__card__front {
+   backface-visibility: hidden;
+   border-radius: 20px;
+   box-shadow: 7px 7px 12px 0px var(--cor01);
+   height: 100%;
+   position: absolute;
+   transition: all 1s ease-in-out;
+   width: 100%;
+}
+
+section.apresentacao__card:hover div.apresentacao__card__front {
+   transform: rotateY(180deg);
+}
+
+img.apresentacao__card__front__imagem {
+   border-radius: 20px;
+   height: 100%;
+   width: 100%;
+}
+
+article.apresentacao__card__back {
+   backface-visibility: hidden;
+   background-image: url(../img/background.jpg);
+   background-size: cover;
+   border-radius: 20px;
+   box-shadow: 7px 7px 12px 0px var(--cor01);
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   justify-content: center;
+   padding: 35px;
+   position: absolute;
+   transform: rotateY(-180deg);
+   transition: all 1s ease-in-out;
+   width: 100%;
+}
+
+section.apresentacao__card:hover article.apresentacao__card__back {
+   transform: rotateY(0deg);
+}
+
+/* ==========Versao Mobile========== */
+@media screen and (max-width: 768px) {
+   section.apresentacao__card {
+      height: 300px;
+      min-height: 300px;
+      width: 100%;
+   }
+
+   section.apresentacao__card:hover div.apresentacao__card__front {
+      transform: none;
+   }
+
+   section.apresentacao__card:hover article.apresentacao__card__back {
+      transform: none;
+   }
+
+   article.apresentacao__card__back {
+      display: none;
+      transform: none;
+   }
+}
+

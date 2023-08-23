@@ -1,0 +1,21 @@
+main.apresentacao {
+   align-items: center;
+   color: var(--cor03);
+   display: flex;
+   flex-basis: 0;
+   flex-direction: row;
+   flex-grow: 1;
+   flex-shrink: 1;
+   gap: 10px;
+   justify-content: space-between;
+   padding: 2% 6%;
+}
+
+/* ==========Versao Mobile========== */
+@media screen and (max-width: 768px) {
+   main.apresentacao {
+      flex-direction: column-reverse;
+      padding: 16% 5%;
+   }
+}
+

@@ -1,0 +1,51 @@
+header.cabecalho {
+   background-color: var(--cor08);
+   padding: 0.8% 6% 0.4% 6%;
+}
+
+nav.cabecalho__menu {
+   align-items: center;
+   display: flex;
+   gap: 50px;
+   justify-content: space-between;
+}
+
+a.cabecalho__menu__link {
+   color: var(--cor04);
+   font-size: 1.1rem;
+   font-weight: 600;
+   text-shadow: 2px 2px 2px var(--cor03);
+   transition: all 0.5s ease-in-out;
+
+   &:hover {
+      color: var(--cor05);
+      transform: scale(1.05);
+   }
+}
+
+i.cabecalho__menu__link--icone {
+   color: var(--cor04);
+   font-size: 1.9rem;
+}
+
+/* ==========Versao Mobile========== */
+@media screen and (max-width: 768px) {
+   header.cabecalho {
+      padding: 16% 5% 11% 5%;
+   }
+
+   nav.cabecalho__menu {
+      align-items: center;
+      flex-direction: column;
+      gap: 17px;
+   }
+
+   a.cabecalho__menu__link {
+      font-size: 1.5rem;
+   }
+
+   i.cabecalho__menu__link--icone {
+      font-size: 3.4rem;
+   }
+}
+

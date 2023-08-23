@@ -1,0 +1,13 @@
+footer.rodape {
+   background-color: var(--cor09);
+   color: var(--cor03);
+   font-size: 0.7rem;
+   padding: 3px;
+   text-align: center;
+}
+
+a.rodape__link {
+   color: var(--cor03);
+   font-weight: 600;
+}
+

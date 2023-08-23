@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Hind:wght@400;600&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+:root {
+   --cor01: #000000;
+   --cor02: #FFFFFF;
+   --cor03: #03023d;
+   --cor04: #22DDF2;
+   --cor05: #ff4db2;
+   --cor06: #FA1796;
+   --cor07: #f7add7;
+   --cor08: rgba(3, 2, 61, 0.5);
+   --cor09: rgba(34, 221, 242, 0.5);
+   --cor10: rgba(250, 23, 152, 0.2);
+   --font01: 'Hind', sans-serif;
+   --font02: 'Audiowide', cursive;
+}
+
+body {
+   background-color: var(--cor05);
+   background-image: url("../img/background.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   font-family: var(--font01);
+   min-height: 100vh;
+}
+
