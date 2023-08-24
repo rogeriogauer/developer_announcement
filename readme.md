@@ -3,7 +3,7 @@
 </h1> 
 
 <p align="center">
- <img src="https://img.shields.io/badge/status-developing-03023d">
+ <img src="https://img.shields.io/badge/status-finished-03023d">
  <img src="https://img.shields.io/badge/version-v1.0.0-FA1796">
 </p>
 
@@ -35,7 +35,7 @@
 <br/>
 
 ## :door: Acessar:
-- Acesse o site em <a href="https://rogeriogauer.github.io/developer_announcement" target="_blank">rogeriogauer.github.io/developer_announcement</a> 
+- Acesse o website em <a href="https://rogeriogauer.github.io/developer_announcement" target="_blank">rogeriogauer.github.io/developer_announcement</a> 
 
 <br/>
 
@@ -48,9 +48,6 @@
 <br/>
 
 - Versão desktop 
-
-<br/>
-<img src="assets/img/versionDesktop.gif" width="490" height="240">
 
 <br/> 
 <img src="assets/img/versionDesktop.gif" width="530" height="260">
